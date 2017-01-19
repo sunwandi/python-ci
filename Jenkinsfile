@@ -1,6 +1,6 @@
 node("slave"){
   stage 'checkout'
-  git 'https://github.com/929121806/test1.git'
+  git 'https://github.com/163yun/python-ci.git'
 
   stage 'create service'
   sh 'chmod a+x ./service.sh'
